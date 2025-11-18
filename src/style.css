@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.header {
+  margin-bottom: 80px;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #7f00ff, #00ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 60px;
+  text-transform: lowercase;
+  background: linear-gradient(90deg, #7f00ff, #00ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Students Section */
+.students-section {
+  margin-bottom: 120px;
+}
+
+.students-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.student-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.student-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.student-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.recommendations-section {
+  margin-bottom: 80px;
+}
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recommendation-card {
+  display: flex;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  scroll-margin-top: 40px;
+}
+
+.recommendation-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.video {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.video-thumbnail {
+  width: 280px;
+  height: 160px;
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
+}
+
+.recommendation-content {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.recommended-by {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.recommended-by span {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .student-card {
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .student-avatar {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .student-name {
+    font-size: 1.5rem;
+  }
+
+  .recommendations-list {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .recommendation-card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
