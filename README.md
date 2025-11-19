@@ -3,6 +3,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-expalmer-181717?logo=github)](https://github.com/expalmer/introducao-a-computacao-ulbra-2025)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+[Link do site](https://introducao-olive.vercel.app/)
+
 ## 📖 Sobre o Projeto
 
 Este é um projeto educacional para a disciplina de Introdução à Computação da ULBRA 2025. O objetivo é aprender sobre **Git**, **GitHub**, **Pull Requests** e **trabalho colaborativo** em desenvolvimento de software.
