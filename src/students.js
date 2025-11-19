@@ -13,4 +13,11 @@ export const students = [
       "https://api.dicebear.com/9.x/adventurer/svg?seed=JohnDoe&eyebrows=variant01",
     gradient: ["#824d11ff", "#9309efff"],
   },
+  {
+    id: 7,
+    name: "Thalia Nascimento",
+    avatar:
+      "https://api.dicebear.com/9.x/adventurer/svg?seed=Christopher",
+    gradient: ["#824d11ff", "#9309efff"],
+  },
 ];
