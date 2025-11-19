@@ -25,4 +25,10 @@ export const students = [
     avatar: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Eliza",
     gradient: ["#EEAECA", "#94BBE9"], // escolha duas cores em hexadecimal
   },
+  {
+    id: 4, // escolha um ID único que não existe ainda
+    name: "Karina",
+    avatar: "https://api.dicebear.com/9.x/adventurer/svg?seed=Liliana",
+    gradient: ["#ff006fff", "#e9e594ff"], // escolha duas cores em hexadecimal
+  },
 ];

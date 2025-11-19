@@ -11,4 +11,11 @@ export const recommendations = [
     videoName: "TypeScript do básico ao avançado",
     videoId: "ahCwqrYpIuM",
   },
+  {
+    id: 3,
+    studentId: 3,
+    videoName:
+      "Descubra o poder da Programação Funcional: uma explicação fácil!",
+    videoId: "7mVVIayE7A8",
+  },
 ];
