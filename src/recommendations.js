@@ -15,7 +15,7 @@ export const recommendations = [
     id: 3,
     studentId: 3,
     videoName:
-      "Descubra o poder da Programação Funcional: uma explicação fácil!",
+      "O poder da Programação Funcional: uma explicação fácil!",
     videoId: "7mVVIayE7A8",
   },
 ];
